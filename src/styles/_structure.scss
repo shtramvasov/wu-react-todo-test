@@ -1,0 +1,61 @@
+// Structure
+.flex {
+  display: flex;
+}
+
+.cols {
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
+}
+
+.self-center {
+  margin: 0 auto;
+}
+
+.vcenter {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.pb-24 {
+  padding-bottom: 1.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 1.5rem;
+}
+
+.pb-48 {
+  padding-bottom: 3rem;
+}
+
+.mb-48 {
+  margin-bottom: 3rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+
+// Misc
+.rounded {
+  border-radius: 4px;
+}
+
+.rounded-lg {
+  border-radius: 16px;
+}
+

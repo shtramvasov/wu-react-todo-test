@@ -1,0 +1,64 @@
+input,
+.input {
+  width: 16rem;
+  font-family: 'Noto Sans', sans-serif;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid $slate;
+  background-color: $slate;
+  font-size: 1rem;
+  font-weight: 300;
+  color: $black;
+  padding: 0.6rem;
+  transition: $transition;
+
+  &:focus {
+    outline: none;
+    border: 1px solid $green;
+    background-color: $white;
+  }
+}
+
+button,
+.button {
+  font-family: 'Noto Sans', sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: $transition;
+  font-size: 1rem;
+  background-color: $slate-dark;
+  color: $black;
+  padding: 0.875rem 1.25rem;
+  border-radius: 4px;
+
+  &:hover {
+      background-color: $green;
+      color: $slate;
+    }
+}
+
+.btn {
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  transition: $transition;
+  background-color: $slate-dark;
+
+  &:hover {
+    background-color: darken($slate-dark, 10%);
+  }
+}
+
+.remove-btn {
+  height: 3rem;
+  width: 3rem;
+  background-color: $red;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: $transition;
+
+  &:hover {
+    background-color: lighten($red, 10%);
+  }
+}

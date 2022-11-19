@@ -1,0 +1,74 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&display=swap');
+@import 'colors';
+@import 'typography';
+@import 'structure';
+@import 'inputs';
+
+// Global Settings
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: $slate;
+}
+
+.app-wrapper {
+  padding: 3rem;
+}
+
+.container {
+  background-color: $white;
+  padding: 2rem;
+  max-width: 40rem;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  padding: 1.5rem;
+  width: 100%;
+  background-color: $slate;
+  transition: $transition;
+  &.completed {
+    background-color: $green;
+       
+    h2, p {
+      color: $slate;
+    }
+  }
+}
+
+.modal {
+  position: fixed;
+  background: rgba($gray, 0.1);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+
+  &__content {
+    padding: 2rem;
+    background-color: $white;
+    min-width: 15rem;
+  }
+}
+
+.visible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  padding: 2rem 0;
+  max-width: fit-content;
+  width: 20rem;
+  height: auto;
+}

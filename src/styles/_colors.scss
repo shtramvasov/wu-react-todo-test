@@ -1,0 +1,24 @@
+// Colors
+$black: #111827;
+$gray: #4b5563;
+$slate: #f1f5f9;
+$slate-dark: #cbd5e1;
+$white: #fafafa;
+$green: #10b981;
+$red: #f43f5e;
+
+//Animations
+$transition: ease-in-out 250ms;
+
+//Shadows
+.shadow-sm {
+  box-shadow: 0px 2px 1px -1px rgba(214, 214, 214, 0.2), 0px 1px 1px rgba(214, 214, 214, 0.14), 0px 1px 3px rgba(214, 214, 214, 0.12);
+}
+
+.shadow-md {
+  box-shadow: 0px 3px 1px -2px rgba(214, 214, 214, 0.2), 0px 2px 2px rgba(214, 214, 214, 0.14), 0px 1px 5px rgba(214, 214, 214, 0.12);
+}
+
+.shadow-xl {
+  box-shadow: 0px 3px 3px -2px rgba(214, 214, 214, 0.2), 0px 3px 4px rgba(214, 214, 214, 0.14), 0px 1px 8px rgba(214, 214, 214, 0.12);
+}
